@@ -344,12 +344,12 @@ figcaption {
 }
 
 .section.about-me {
-  height: 800px;
+  height: 970px;
   background-color: #FAFAFA;
   margin-top: 60px;
   display: flex;
-  justify-content: space-between;
-  padding: 0 13%;
+  justify-content: space-around;
+  padding: 0 0%;
 }
 
 .wrapper {
@@ -911,6 +911,10 @@ figcaption {
 
 .text-label.white {
   color: #fff;
+}
+
+.boldText {
+  font-weight: bold;
 }
 
 .link-white {
@@ -8680,6 +8684,7 @@ figcaption {
 
 .image-3 {
   border-radius: 15px;
+  width: 80%;
 }
 
 .text-span-4 {
@@ -8705,8 +8710,8 @@ figcaption {
 }
 
 .image-4 {
-  width: 250px;
-  height: 100px;
+  width: 300px;
+  margin-top: 23px;
   margin-bottom: 0px;
   padding-top: 0px;
 }
@@ -9085,7 +9090,7 @@ figcaption {
   border: 8px none #fff;
   border-radius: 0px;
   background-color: #FAFAFA;
-  background-image: url('../images/headercollegepathcasestudy.png');
+  background-image: url('../assets/1Project1Mockup.png');
   background-position: 50% 50%;
   background-size: 70%;
   background-repeat: no-repeat;
@@ -11360,9 +11365,14 @@ a {
     width: 200px;
   }
 
+  #hand{
+    display: none;
+  }
+
   .section.about-me {
     height: 800px;
     background-color: #FAFAFA;
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     padding: 0 13%;
@@ -11564,6 +11574,7 @@ a {
   }
 
   .title-card.left {
+    top: -50px;
     height: 300px;
     margin-bottom: 40px;
   }
@@ -13139,6 +13150,7 @@ a {
 
   .section.about-me{
     padding: 0 10%;
+    margin-top: 30px;
   }
 
 
@@ -14418,8 +14430,6 @@ a {
 }
 
 @media screen and (max-width: 479px) {
-
-
   h2 {
     font-family: 'Futura pt', sans-serif;
     color: #111111;
@@ -15827,7 +15837,7 @@ a {
   }
 
   .heading-5 {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .menu-button-3 {
@@ -16781,7 +16791,6 @@ a {
 }
 
 @media screen and (max-width: 479px) {
-  
   #w-node-_9945ff71-7883-7e4b-3817-30083acaaa26-762a7273 {
     -ms-grid-column: span 4;
     grid-column-start: span 4;
